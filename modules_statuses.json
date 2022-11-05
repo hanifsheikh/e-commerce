@@ -1,0 +1,6 @@
+{
+    "Seller": true,
+    "Customer": true,
+    "Buyer": true,
+    "Admin": true
+}
