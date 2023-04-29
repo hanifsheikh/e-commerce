@@ -396,6 +396,6 @@ class OrderController extends Controller
         ];
 
         $pdf = PDF::loadView('seller::invoice', $data);
-        return $pdf->download('invoice.pdf');
+        return $pdf->download('Invoice - ' . $invoice->invoice_no . '.pdf');
     }
 }

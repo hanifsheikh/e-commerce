@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Invoice - {{$invoice_no}}</title>
 </head>
 <style type="text/css">
     @font-face {
@@ -19,7 +19,7 @@
         font-family: "Inter";
         src: url(<?php echo storage_path("fonts/Inter-Bold.ttf"); ?>) format("truetype");
         font-weight: 700;
-        font-style: normal;
+        font-style: bold;
     }
 
     @font-face {
@@ -73,7 +73,7 @@
     <div class="page">
         <div style="padding:15pt;">
             <div style="display: inline-block;">
-                <img src="{{asset('/images/logo.png')}}" style="height:26px;">
+                <img src="{{public_path('/images/logo.png')}}" style="height:26px;">
                 <p style="font-size:8pt;">E-commerce Platform In Bangladesh!</p>
             </div>
             <div style="display: inline-block;" class="float-right">

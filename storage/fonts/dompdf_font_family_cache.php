@@ -78,10 +78,5 @@ return array (
     'italic' => $rootDir . '/lib/fonts/DejaVuSerif-Italic',
     'normal' => $rootDir . '/lib/fonts/DejaVuSerif',
   ),
-  'inter' => array(
-    'normal' => $fontDir . '/inter_normal_d9e0beffebb8f81457e71d571102c051',
-    'bold' => $fontDir . '/inter_bold_41c042dbe2a62f4486cbd586c4bc3d57',
-    '800' => $fontDir . '/inter_800_2159b4c2277e587e7a4397b9d9f3ab3d',
-  ),
 );
 }; ?>
