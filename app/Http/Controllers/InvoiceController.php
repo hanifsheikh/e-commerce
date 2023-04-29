@@ -165,6 +165,7 @@ class InvoiceController extends Controller
         ];
 
         $pdf = PDF::loadView('seller::invoice', $data);
-        return $pdf->download('invoice.pdf');
+        return response($pdf->download('Invoice - ' . $invoice->invoice_no . '.pdf'))
+            ->header("Content-disposition", "attachment; filename=" . 'Invoice - ' . $invoice->invoice_no . '.pdf');
     }
 }
