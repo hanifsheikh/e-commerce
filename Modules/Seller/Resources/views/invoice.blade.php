@@ -73,7 +73,7 @@
     <div class="page">
         <div style="padding:15pt;">
             <div style="display: inline-block;">
-                <img src="{{public_path('/images/logo.png')}}" style="height:26px;">
+                <img src="{{asset('/images/logo.png')}}" style="height:26px;">
                 <p style="font-size:8pt;">E-commerce Platform In Bangladesh!</p>
             </div>
             <div style="display: inline-block;" class="float-right">
